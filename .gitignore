@@ -1,0 +1,49 @@
+# Pliki tymczasowe SQL Server
+*.bak
+*.mdf
+*.ldf
+*.ndf
+
+# Pliki logów
+*.log
+*.tlog
+
+# Pliki tymczasowe systemu operacyjnego
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Pliki IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.docstates
+
+# Pliki tymczasowe
+*.tmp
+*.temp
+~$*
+
+# Backupy
+*.backup
+*.old
+
+# Pliki konfiguracyjne z danymi wrażliwymi
+appsettings.local.json
+*.secret
+connection_strings.txt
+
+# Katalogi tymczasowe
+/tmp/
+/temp/
+/backups/
+
+# Pliki wydajnościowe
+*.trace
+*.trc
+
+# Raporty SQL
+*.sqlproj
+*.sqlproj.user
+*.dbmdl
